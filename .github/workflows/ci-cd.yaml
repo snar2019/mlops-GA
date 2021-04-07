@@ -6,7 +6,7 @@ on:
       - master
       #- main-mlflow
   pull_request:
-    branches:git
+    branches:
       - master
       #- main-mlflow
 
