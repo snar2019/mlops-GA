@@ -1,0 +1,54 @@
+schema: '2.0'
+stages:
+  load_data:
+    cmd: python src/load_data.py --config=params.yaml
+    deps:
+    - path: data_given/test.csv
+      md5: c8a72cd72434a07e7a6f597266eb6d9e
+      size: 1346845550
+    - path: data_given/train.csv
+      md5: 8b139661d98958f166674d748646e482
+      size: 1503430926
+    - path: src/get_data.py
+      md5: 3c807c6ec67e7dc91aad8b28d0c55df6
+      size: 687
+    - path: src/load_data.py
+      md5: 3c4d092604126226d04efa0749dabcde
+      size: 692
+    outs:
+    - path: data/raw/test.csv
+      md5: 89264e44e5ab858bb63bc1bbb0a4ad17
+      size: 1346816861
+    - path: data/raw/train.csv
+      md5: 4ea7957cb1620c9a7e17111ef29942c0
+      size: 1503352571
+  preprocess_and_split:
+    cmd: python src/preprocess_and_split.py --config=params.yaml
+    deps:
+    - path: data/raw/test.csv
+      md5: 89264e44e5ab858bb63bc1bbb0a4ad17
+      size: 1346816861
+    - path: data/raw/train.csv
+      md5: 4ea7957cb1620c9a7e17111ef29942c0
+      size: 1503352571
+    - path: src/preprocess_and_split.py
+      md5: 1a0d5205dda707b64e7e40916a43261e
+      size: 7191
+    outs:
+    - path: data/processed/train_processed.csv
+      md5: 42559ec1ea397472300477a732096cc2
+      size: 7406838
+  train_and_evaluate:
+    cmd: python src/train_and_evaluate.py --config=params.yaml
+    deps:
+    - path: data/processed/train_processed.csv
+      md5: 42559ec1ea397472300477a732096cc2
+      size: 7406838
+    - path: src/train_and_evaluate.py
+      md5: 839221e77323cba1355e0940f2a7c761
+      size: 3444
+    params:
+      params.yaml:
+        estimators.XGBoost.learning_rate: 0.5
+        estimators.XGBoost.max_depth: 8
+        estimators.XGBoost.n_estimators: 1000

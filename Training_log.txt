@@ -1,0 +1,156 @@
+2021-03-31/18:03:43		Training Data load was successful
+2021-03-31/18:03:43		Data reading successful
+2021-03-31/18:03:43		Datetime Processing in train data completed 
+2021-03-31/18:03:43		Column_validator successful
+2021-03-31/18:03:45		Normalizing the json columns completed
+2021-03-31/18:03:45		50% NAN value columns are removed
+2021-03-31/18:03:45		Dropped columns which are not contributing to the transaction revenue
+2021-03-31/18:03:45		Imputing NAN values with 0 is completed
+2021-03-31/18:03:45		Conversion of Datatype to int completed
+2021-03-31/18:03:46		Zero standard deviation columns are removed
+2021-03-31/18:05:27		Training Data load was successful
+2021-03-31/18:05:27		Data reading successful
+2021-03-31/18:05:27		Datetime Processing in train data completed 
+2021-03-31/18:05:27		Column_validator successful
+2021-03-31/18:05:29		Normalizing the json columns completed
+2021-03-31/18:05:29		50% NAN value columns are removed
+2021-03-31/18:05:29		Dropped columns which are not contributing to the transaction revenue
+2021-03-31/18:05:29		Imputing NAN values with 0 is completed
+2021-03-31/18:05:29		Conversion of Datatype to int completed
+2021-03-31/18:05:29		Zero standard deviation columns are removed
+2021-03-31/18:05:29		Gathering of label _cols in train data completed 
+2021-03-31/18:05:32		Label_encoding in train data completed 
+2021-03-31/18:05:32		Pageviews column imputed with KNNimputer
+2021-03-31/18:05:32		Traning data is processed and stored as data/processed/train_processed.csv
+2021-03-31/18:08:34		Training Data load was successful
+2021-03-31/18:08:34		Data reading successful
+2021-03-31/18:08:34		Datetime Processing in train data completed 
+2021-03-31/18:08:34		Column_validator successful
+2021-03-31/18:08:36		Normalizing the json columns completed
+2021-03-31/18:08:36		50% NAN value columns are removed
+2021-03-31/18:08:36		Dropped columns which are not contributing to the transaction revenue
+2021-03-31/18:08:36		Imputing NAN values with 0 is completed
+2021-03-31/18:08:36		Conversion of Datatype to int completed
+2021-03-31/18:08:36		Zero standard deviation columns are removed
+2021-03-31/18:08:36		Gathering of label _cols in train data completed 
+2021-03-31/18:08:38		Label_encoding in train data completed 
+2021-03-31/18:08:38		Pageviews column imputed with KNNimputer
+2021-03-31/18:08:38		Traning data is processed and stored as data/processed/train_processed.csv
+2021-03-31/18:09:43		Training Data load was successful
+2021-03-31/18:09:43		Data reading successful
+2021-03-31/18:09:43		Datetime Processing in train data completed 
+2021-03-31/18:09:43		Column_validator successful
+2021-03-31/18:09:45		Normalizing the json columns completed
+2021-03-31/18:09:45		50% NAN value columns are removed
+2021-03-31/18:09:45		Dropped columns which are not contributing to the transaction revenue
+2021-03-31/18:09:45		Imputing NAN values with 0 is completed
+2021-03-31/18:09:45		Conversion of Datatype to int completed
+2021-03-31/18:09:45		Zero standard deviation columns are removed
+2021-03-31/18:09:45		Gathering of label _cols in train data completed 
+2021-03-31/18:09:47		Label_encoding in train data completed 
+2021-03-31/18:09:47		Pageviews column imputed with KNNimputer
+2021-03-31/18:09:47		Traning data is processed and stored as data/processed/train_processed.csv
+2021-03-31/18:12:08		Training Data load was successful
+2021-03-31/18:12:08		Data reading successful
+2021-03-31/18:12:08		Datetime Processing in train data completed 
+2021-03-31/18:12:08		Column_validator successful
+2021-03-31/18:12:09		Normalizing the json columns completed
+2021-03-31/18:12:09		50% NAN value columns are removed
+2021-03-31/18:12:09		Dropped columns which are not contributing to the transaction revenue
+2021-03-31/18:12:10		Imputing NAN values with 0 is completed
+2021-03-31/18:12:10		Conversion of Datatype to int completed
+2021-03-31/18:12:10		Zero standard deviation columns are removed
+2021-03-31/18:12:10		Gathering of label _cols in train data completed 
+2021-03-31/18:12:12		Label_encoding in train data completed 
+2021-03-31/18:12:12		Pageviews column imputed with KNNimputer
+2021-03-31/18:12:12		Traning data is processed and stored as data/processed/train_processed.csv
+2021-03-31/20:04:35		Training Data load was successful
+2021-03-31/20:04:35		Data reading successful
+2021-03-31/20:04:35		Datetime Processing in train data completed 
+2021-03-31/20:04:35		Column_validator successful
+2021-03-31/20:04:36		Normalizing the json columns completed
+2021-03-31/20:04:36		50% NAN value columns are removed
+2021-03-31/20:04:37		Dropped columns which are not contributing to the transaction revenue
+2021-03-31/20:04:37		Imputing NAN values with 0 is completed
+2021-03-31/20:04:37		Conversion of Datatype to int completed
+2021-03-31/20:04:37		Zero standard deviation columns are removed
+2021-03-31/20:04:37		Gathering of label _cols in train data completed 
+2021-03-31/20:04:38		Label_encoding in train data completed 
+2021-03-31/20:04:38		Pageviews column imputed with KNNimputer
+2021-03-31/20:04:38		Traning data is processed and stored as data/processed/train_processed.csv
+2021-03-31/20:04:40		Splitting dataset completed
+2021-03-31/20:18:21		Training Data load was successful
+2021-03-31/20:18:21		Data reading successful
+2021-03-31/20:18:21		Datetime Processing in train data completed 
+2021-03-31/20:18:21		Column_validator successful
+2021-03-31/20:18:23		Normalizing the json columns completed
+2021-03-31/20:18:23		50% NAN value columns are removed
+2021-03-31/20:18:23		Dropped columns which are not contributing to the transaction revenue
+2021-03-31/20:18:23		Imputing NAN values with 0 is completed
+2021-03-31/20:18:23		Conversion of Datatype to int completed
+2021-03-31/20:18:23		Zero standard deviation columns are removed
+2021-03-31/20:18:23		Gathering of label _cols in train data completed 
+2021-03-31/20:18:24		Label_encoding in train data completed 
+2021-03-31/20:18:24		Pageviews column imputed with KNNimputer
+2021-03-31/20:18:25		Traning data is processed and stored as data/processed/train_processed.csv
+2021-03-31/20:19:44		Splitting dataset completed
+2021-03-31/20:19:44		Log transformation of transaction Revenue values completed
+2021-03-31/20:26:45		Training Data load was successful
+2021-03-31/20:26:45		Data reading successful
+2021-03-31/20:26:45		Datetime Processing in train data completed 
+2021-03-31/20:26:45		Column_validator successful
+2021-03-31/20:26:47		Normalizing the json columns completed
+2021-03-31/20:26:47		50% NAN value columns are removed
+2021-03-31/20:26:47		Dropped columns which are not contributing to the transaction revenue
+2021-03-31/20:26:47		Imputing NAN values with 0 is completed
+2021-03-31/20:26:47		Conversion of Datatype to int completed
+2021-03-31/20:26:48		Zero standard deviation columns are removed
+2021-03-31/20:26:48		Gathering of label _cols in train data completed 
+2021-03-31/20:26:48		Label_encoding in train data completed 
+2021-03-31/20:26:49		Pageviews column imputed with KNNimputer
+2021-03-31/20:26:49		Traning data is processed and stored as data/processed/train_processed.csv
+2021-03-31/20:27:50		Splitting dataset completed
+2021-03-31/20:27:50		Log transformation of transaction Revenue values completed
+2021-03-31/20:33:21		Splitting dataset completed
+2021-03-31/20:33:21		Log transformation of transaction Revenue values completed
+2021-03-31/20:33:24		Model file created successfully
+2021-03-31/20:35:55		Training Data load was successful
+2021-03-31/20:35:55		Data reading successful
+2021-03-31/20:35:55		Datetime Processing in train data completed 
+2021-03-31/20:35:55		Column_validator successful
+2021-03-31/20:35:57		Normalizing the json columns completed
+2021-03-31/20:35:57		50% NAN value columns are removed
+2021-03-31/20:35:57		Dropped columns which are not contributing to the transaction revenue
+2021-03-31/20:35:57		Imputing NAN values with 0 is completed
+2021-03-31/20:35:57		Conversion of Datatype to int completed
+2021-03-31/20:35:57		Zero standard deviation columns are removed
+2021-03-31/20:35:57		Gathering of label _cols in train data completed 
+2021-03-31/20:35:58		Label_encoding in train data completed 
+2021-03-31/20:35:58		Pageviews column imputed with KNNimputer
+2021-03-31/20:35:58		Traning data is processed and stored as data/processed/train_processed.csv
+2021-03-31/20:36:00		Splitting dataset completed
+2021-03-31/20:36:00		Log transformation of transaction Revenue values completed
+2021-03-31/20:36:03		Model file created successfully
+2021-03-31/20:40:39		Training Data load was successful
+2021-03-31/20:40:40		Data reading successful
+2021-03-31/20:40:41		Datetime Processing in train data completed 
+2021-03-31/20:40:41		Column_validator successful
+2021-03-31/20:40:55		Normalizing the json columns completed
+2021-03-31/20:40:58		50% NAN value columns are removed
+2021-03-31/20:44:23		Training Data load was successful
+2021-03-31/20:44:24		Data reading successful
+2021-03-31/20:44:24		Datetime Processing in train data completed 
+2021-03-31/20:44:24		Column_validator successful
+2021-03-31/20:44:39		Normalizing the json columns completed
+2021-03-31/20:44:41		50% NAN value columns are removed
+2021-03-31/20:44:42		Dropped columns which are not contributing to the transaction revenue
+2021-03-31/20:44:43		Imputing NAN values with 0 is completed
+2021-03-31/20:44:43		Conversion of Datatype to int completed
+2021-03-31/20:44:46		Zero standard deviation columns are removed
+2021-03-31/20:44:46		Gathering of label _cols in train data completed 
+2021-03-31/20:44:48		Label_encoding in train data completed 
+2021-03-31/20:44:49		Pageviews column imputed with KNNimputer
+2021-03-31/20:44:50		Traning data is processed and stored as data/processed/train_processed.csv
+2021-03-31/20:44:53		Splitting dataset completed
+2021-03-31/20:44:53		Log transformation of transaction Revenue values completed
+2021-03-31/20:46:14		Model file created successfully

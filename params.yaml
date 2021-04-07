@@ -1,0 +1,44 @@
+base:
+  project:Google Store Customer Revenue Prediction
+  target_col:transaction revenue
+
+data_source:
+  train_csv:
+    data_given/train.csv
+  test_csv:
+    data_given/test.csv
+
+load_data:
+  raw_train_data_csv:
+    data/raw/train.csv
+  raw_test_data_csv:
+    data/raw/test.csv
+
+split_data:
+  train_path:
+    data/processed/train_processed.csv
+  test_path:
+    data/processed/test_processed.csv
+
+estimators:
+  XGBoost:
+      n_estimators:
+          1000
+      learning_rate:
+          0.5
+      max_depth:
+          8
+
+model_dir:
+  saved_models
+
+webapp_model_dir: prediction_service/model/xgb_model.pkl
+
+mlflow_config:
+  artifacts_dir: artifacts
+  experiment_name: XG_BOOST regression
+  run_name: mlops
+  registered_model_name: XGBoostModel
+  remote_server_uri: http://0.0.0.0:1235
+
+

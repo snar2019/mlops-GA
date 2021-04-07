@@ -1,0 +1,18 @@
+{
+	"SampleFileName": "train.csv",
+	"NumberofColumns": 12,
+	"ColName": {
+		"channelGrouping": "varchar",
+		"date": "integer",
+		"device": "varchar",
+		"fullVisitorId": "integer",
+		"geoNetwork": "varchar",
+		"sessionId": "varchar",
+		"socialEngagementType": "varchar",
+		"totals": "varchar",
+		"trafficSource": "varchar",
+		"visitId": "integer",
+		"visitNumber": "integer",
+		"visitStartTime": "integer"
+	}
+}
