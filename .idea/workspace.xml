@@ -4,6 +4,8 @@
     <list default="true" id="ee42aa5c-2c9d-47ae-81dd-8cd765445e21" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/ci-cd.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci-cd.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/test_processed.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/test_processed.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.app1">
+  <component name="RunManager" selected="Python.app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GA_MLOPS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,9 +120,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.app1" />
         <item itemvalue="Python.logger" />
-        <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
   </component>
