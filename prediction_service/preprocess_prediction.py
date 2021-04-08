@@ -164,5 +164,5 @@ class preprocessor:
         if self.path == 'test.csv':
             print("preprocessing started")
             #preprocess_and_split(config_path=parsed_args.config)
-            preprocess_and_split()
+            preprocess_and_split("--config", default="params.yaml")
 
