@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee42aa5c-2c9d-47ae-81dd-8cd765445e21" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/get_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/get_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/load_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/load_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/preprocess_and_split.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/preprocess_and_split.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/train_and_evaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/train_and_evaluate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prediction_service/preprocess_prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/prediction_service/preprocess_prediction.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
