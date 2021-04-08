@@ -19,15 +19,16 @@ def index():
 
             try:
 
-                        print('file selected')
-                        if 'file' in request.files :
+                        #print('file selected')
+                        #if 'file' in request.files :
                             path = request.files['file']
+                            path = path.filename
                             print(path)
                             logger.log(file_object,"File name read successfully")
                             response = prediction.form_response(path)
                             return render_template("index1.html", response=response)
-                        else:
-                            print('File not found')
+                        #else:
+                            #print('File not found')
 
 
             except Exception as e:
