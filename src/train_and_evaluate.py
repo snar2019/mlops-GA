@@ -8,7 +8,7 @@ import xgboost as xgb
 import numpy as np
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from get_data import read_params
-import argparse
+#import argparse
 import pickle
 import mlflow
 from urllib.parse import urlparse
@@ -85,7 +85,8 @@ def train_and_evaluate(config_path):
     file_object.close()
 
 if __name__ == "__main__":
-    args = argparse.ArgumentParser()
-    args.add_argument("--config", default="params.yaml")
-    parsed_args = args.parse_args()
-    train_and_evaluate(config_path=parsed_args.config)
+    pass
+    # args = argparse.ArgumentParser()
+    # args.add_argument("--config", default="params.yaml")
+    # parsed_args = args.parse_args()
+    # train_and_evaluate(config_path=parsed_args.config)

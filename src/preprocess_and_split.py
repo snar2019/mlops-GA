@@ -1,6 +1,6 @@
 # split the raw data
 # save it in data/processed folder
-import argparse
+#import argparse
 import pandas as pd
 import re
 import json
@@ -167,7 +167,8 @@ def preprocess_and_split(config_path):
 # Program Entry point#
 
 if __name__ == "__main__":
-    args = argparse.ArgumentParser()
-    args.add_argument("--config", default="params.yaml")
-    parsed_args = args.parse_args()
-    preprocess_and_split(config_path=parsed_args.config)
+    pass
+    # args = argparse.ArgumentParser()
+    # args.add_argument("--config", default="params.yaml")
+    # parsed_args = args.parse_args()
+    # preprocess_and_split(config_path=parsed_args.config)

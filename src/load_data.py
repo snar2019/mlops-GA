@@ -1,7 +1,7 @@
 # read the data from data source
 # save it in the data/raw for further process
 from get_data import read_params,get_data
-import argparse
+#import argparse
 
 def load_and_save(config_path):
     config=read_params(config_path)
@@ -13,7 +13,7 @@ def load_and_save(config_path):
 
 
 if __name__ == "__main__":
-    args = argparse.ArgumentParser()
-    args.add_argument("--config", default="params.yaml")
-    parsed_args = args.parse_args()
-    load_and_save(config_path=parsed_args.config)
+    #args = argparse.ArgumentParser()
+    #args.add_argument("--config", default="params.yaml")
+    #parsed_args = args.parse_args()
+    #load_and_save(config_path=parsed_args.config)
