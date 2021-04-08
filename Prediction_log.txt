@@ -41,3 +41,45 @@
 2021-04-08/11:40:40		Label_encoding in test data completed 
 2021-04-08/11:40:40		Pageviews column imputed with KNNimputer
 2021-04-08/11:40:40		Preprocessing of prediction file completed
+2021-04-08/12:12:49		Test Dataset loaded  successfully
+2021-04-08/12:12:49		Data reading successful
+2021-04-08/12:12:49		Datetime Processing in test data completed 
+2021-04-08/12:12:49		Column_validator successful
+2021-04-08/12:12:51		Normalizing the json columns completed
+2021-04-08/12:12:51		50% NAN value columns are removed
+2021-04-08/12:12:51		Dropped columns which are not contributing to the transaction revenue
+2021-04-08/12:12:51		Imputing NAN values with 0 is completed
+2021-04-08/12:12:51		Conversion of Datatype to int completed
+2021-04-08/12:12:51		Zero standard deviation columns are removed
+2021-04-08/12:12:51		Gathering of categorical columns in test data completed 
+2021-04-08/12:12:52		Label_encoding in test data completed 
+2021-04-08/12:12:52		Pageviews column imputed with KNNimputer
+2021-04-08/12:12:52		Preprocessing of prediction file completed
+2021-04-08/12:14:55		Test Dataset loaded  successfully
+2021-04-08/12:14:55		Data reading successful
+2021-04-08/12:14:55		Datetime Processing in test data completed 
+2021-04-08/12:14:55		Column_validator successful
+2021-04-08/12:14:57		Normalizing the json columns completed
+2021-04-08/12:14:57		50% NAN value columns are removed
+2021-04-08/12:14:57		Dropped columns which are not contributing to the transaction revenue
+2021-04-08/12:14:57		Imputing NAN values with 0 is completed
+2021-04-08/12:14:57		Conversion of Datatype to int completed
+2021-04-08/12:14:57		Zero standard deviation columns are removed
+2021-04-08/12:14:57		Gathering of categorical columns in test data completed 
+2021-04-08/12:14:58		Label_encoding in test data completed 
+2021-04-08/12:14:58		Pageviews column imputed with KNNimputer
+2021-04-08/12:14:58		Preprocessing of prediction file completed
+2021-04-08/12:21:56		Test Dataset loaded  successfully
+2021-04-08/12:21:56		Data reading successful
+2021-04-08/12:21:56		Datetime Processing in test data completed 
+2021-04-08/12:21:56		Column_validator successful
+2021-04-08/12:21:57		Normalizing the json columns completed
+2021-04-08/12:21:57		50% NAN value columns are removed
+2021-04-08/12:21:57		Dropped columns which are not contributing to the transaction revenue
+2021-04-08/12:21:57		Imputing NAN values with 0 is completed
+2021-04-08/12:21:57		Conversion of Datatype to int completed
+2021-04-08/12:21:58		Zero standard deviation columns are removed
+2021-04-08/12:21:58		Gathering of categorical columns in test data completed 
+2021-04-08/12:21:59		Label_encoding in test data completed 
+2021-04-08/12:21:59		Pageviews column imputed with KNNimputer
+2021-04-08/12:21:59		Preprocessing of prediction file completed
