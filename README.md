@@ -1,3 +1,5 @@
+# Codes to start with the project:
+
 create env
 
 conda create -n MLOPS python=3.7 -y
@@ -18,7 +20,7 @@ dvc init
 dvc add data_given/train.csv
 git add .
 git commit -m "first commit"
-oneliner updates for readme
+#oneliner updates for readme
 
 git add . && git commit -m "update Readme.md"
 git remote add origin https://github.com/snar2019/mlops-GA.git
