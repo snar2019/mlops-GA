@@ -3,7 +3,7 @@ create env
 conda create -n wineq python=3.7 -y
 activate env
 
-conda activate wineq
+snar2019conda activate wineq
 created a req file
 
 install the req
@@ -21,7 +21,7 @@ git commit -m "first commit"
 oneliner updates for readme
 
 git add . && git commit -m "update Readme.md"
-git remote add origin https://github.com/Priya1881/GA_MLOPS.git
+git remote add origin https://github.com/snar2019/mlops-GA.git
 
 git push origin main
 tox command -
