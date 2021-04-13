@@ -1,4 +1,6 @@
-# Codes to start with the project:
+## This is Revenue prediction project for e-commerce client
+
+### Codes to start with the project:
 
 create env
 
