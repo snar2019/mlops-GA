@@ -1,9 +1,9 @@
 create env
 
-conda create -n wineq python=3.7 -y
+conda create -n MLOPS python=3.7 -y
 activate env
 
-snar2019conda activate wineq
+snar2019conda activate MLOPS
 created a req file
 
 install the req
