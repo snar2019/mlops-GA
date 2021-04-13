@@ -1,4 +1,4 @@
-## This is Revenue prediction project for e-commerce client
+## This is Revenue prediction project for e-commerce client with MLOPS intergration
 
 ### Codes to start with the project:
 
